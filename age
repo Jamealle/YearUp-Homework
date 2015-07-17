@@ -1,0 +1,57 @@
+var person = {
+	name:'Richard',
+	age:78,
+	isEmployed:true
+};
+
+
+
+function sayhello(){
+	alert('hello');
+}
+
+sayHello();
+
+function sayHello(name){
+	alert('hello' +name);
+}
+
+sayHello('Richard')
+
+function sayHello2 (name){
+	alert('hello' + ' ' + name);
+}
+
+sayHello2(Florence)
+
+
+
+"""
+var seed = 'age';
+
+if age>30 {
+    alert('You are too old!');
+}
+if age<18 {
+    alert('You are too young!');
+}
+else 18 < age < 30 {
+    alert('You are just right!');
+}
+
+prompt('age')
+"""
+
+
+var seed = prompt ('Write age here')
+
+if seed>30 {
+    alert('You are too old!');
+}
+if seed<18 {
+    alert('You are too young!');
+}
+else 18 < seed < 30 {
+    alert('You are just right!');
+}
+
